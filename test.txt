@@ -1,1 +1,2 @@
 --- Testing Github cloning ---
+Now I can type in VIM!
