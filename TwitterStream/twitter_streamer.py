@@ -7,8 +7,14 @@ import twitter_credentials
 The MyStreamListener classifies twitter messages and routes them to appropiately named methods.
 '''
 class MyStreamListener(tweepy.StreamListener):
+    # Prints the status
     def on_status(self, status):
         print(status.text)
+    
+    # If there's an error, then the method will determine if stream reconnects or stops.
+    def on_error(self, status_code):
+        if status_code == 420:
+            return False
 
 # OAuth authorization with Twitter server.
 auth = tweepy.OAuthHandler(twitter_credentials.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
