@@ -6,3 +6,6 @@ TwitterStream/__pycache__/twitter_credentials.cpython-37.pyc
 
 # Ignore Twitter credentials
 TwitterStream/twitter_credentials.py
+
+# Ignore json files
+.json
