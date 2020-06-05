@@ -1,0 +1,8 @@
+# Ignore Mac DS_Store files in all directories
+.DS_Store
+
+# Ignore Python cache
+TwitterStream/__pycache__/twitter_credentials.cpython-37.pyc
+
+# Ignore Twitter credentials
+TwitterStream/twitter_credentials.py
