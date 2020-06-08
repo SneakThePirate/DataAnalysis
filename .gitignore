@@ -9,3 +9,4 @@ TwitterStream/twitter_credentials.py
 
 # Ignore json files
 .json
+tweets.json
