@@ -1,6 +1,6 @@
 # DataAnalysis
 Hi. I'm Ethan Nguyen, and I'm a rising sophmore at Vanderbilt University. 
-The main goal of this project is to learn machine learning and natural languanage processing by building a Twitter sentiment analysis platform. Thanks to Jon Ehrman  and SyBBURE (sybbure.org) for their support. 
+The main goal of this project is to learn machine learning and natural languanage processing by building a Twitter sentiment analysis platform. Thanks to Jon Ehrman  and SyBBURE (https://sybbure.org) for their support. 
 
 ## Deadlines
 - [ ] June 12: Use Tweepy API to filter and store tweets.
