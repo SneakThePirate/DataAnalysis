@@ -1,6 +1,4 @@
 # DataAnalysis
-Holds projects for social media analysis and Vagrant VM image with tools preloaded. cc-by-sa-4.0
-
 Hi. I'm Ethan Nguyen, and I'm a rising sophmore at Vanderbilt University. 
 The main goal of this project is to learn machine learning and natural languanage processing by building a Twitter sentiment analysis platform. Thanks to Jon Ehrman  and SyBBURE for their support. 
 
