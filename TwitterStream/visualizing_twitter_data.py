@@ -4,6 +4,7 @@ import tweepy
 import twitter_credentials
 import numpy as np 
 import pandas as pd 
+import matplotlib.pyplot as plt
 
 ### Twitter Client ###
 class TwitterClient():
@@ -123,3 +124,8 @@ if __name__ == '__main__':
 
     # Get the number of retweets for the most retweeted tweet.
     print(np.max(df['retweets']))
+
+    # Time series
+    time_likes = pd.Series(data=df['likes'].values, index=df['date'])
+    time_likes.plot(figsize=(16,4), color='r')
+    plt.show()
