@@ -125,7 +125,22 @@ if __name__ == '__main__':
     # Get the number of retweets for the most retweeted tweet.
     print(np.max(df['retweets']))
 
-    # Time series
-    time_likes = pd.Series(data=df['likes'].values, index=df['date'])
+    # Time series for likes
+    """ time_likes = pd.Series(data=df['likes'].values, index=df['date'])
     time_likes.plot(figsize=(16,4), color='r')
     plt.show()
+
+    # Time series for retweets
+    time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
+    time_retweets.plot(figsize=(16,4), color='r')
+    plt.show() """
+
+    # Time series with two lines
+    time_likes = pd.Series(data=df['likes'].values, index=df['date'])
+    time_likes.plot(figsize=(16,4), label='likes', legend=True)
+    
+    time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
+    time_retweets.plot(figsize=(16,4), label='retweets', legend=True)
+
+    plt.show()
+    
